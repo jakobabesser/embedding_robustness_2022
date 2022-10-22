@@ -8,7 +8,7 @@ This jupyter notebook reproduces all experiments and figures for the article:
 
 ## How to run
 
-* download supplementary data from https://zenodo.org/7239506 and store files in the ```data``` subfolder, here's the list of required files:
+* download supplementary data from https://zenodo.org/record/7239506 and store files in the ```data``` subfolder, here's the list of required files:
 
 ![](file_list.png)
 
