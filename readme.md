@@ -4,7 +4,7 @@
 
 This jupyter notebook reproduces all experiments and figures for the article:
 
-**Jakob Abeßer, Sascha Grollmisch, Meinard Müller, How Robust are Audio Embeddings for Polyphonic Sound Classification? (2022)
+**Jakob Abeßer, Sascha Grollmisch, Meinard Müller, How Robust are Audio Embeddings for Polyphonic Sound Classification? (2022)**
 
 ## How to run
 
@@ -12,15 +12,17 @@ This jupyter notebook reproduces all experiments and figures for the article:
 
 ![](file_list.png)
 
+* install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) on your system
+
 * create a new conda environment based on the provided requirements file
 ```
-conda create -n <environment-name> --file req.txt
+conda env create --file env.yml
 ```
 
 * activate conda environment
 
 ```
-activate <environment-name>
+activate emb_env
 ```
 
 * run ```jupyter notebook``` 
