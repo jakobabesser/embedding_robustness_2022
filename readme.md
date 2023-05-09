@@ -36,3 +36,7 @@ tensorflow version:  2.3.0
 * open ```article_2023_reproduction.ipynb``` and run all cells
 
 * result figures will be stored in ```results``` folder
+
+## Details on extracted embeddings
+
+* [Details on extracted embeddings](embedding_details.md)
