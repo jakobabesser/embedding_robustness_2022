@@ -43,6 +43,7 @@ This page gives more details about the extracted embeddings.
 - fmax = 14000
 
 ## PaSST
+
 - code for HEAR2021 challenge: https://github.com/kkoutini/passt_hear21/tree/c02c4b4b367399bebbe20971b674e7c87609228d
 - version: 0.0.19
 - environment as suggested (torch==1.8.1)
@@ -58,6 +59,7 @@ This page gives more details about the extracted embeddings.
 - 50ms hopsize, averaged over 1 second snippets -> [5, 1296]
 
 ## VGGish
+
 - code taken from https://github.com/tensorflow/models/tree/master/research/audioset/vggish
 - model can be downloaded from same page -> vggish_model.ckpt
 
@@ -67,7 +69,7 @@ This page gives more details about the extracted embeddings.
 - NUM_BANDS = 64  # Frequency bands in input mel-spectrogram patch.
 - EMBEDDING_SIZE = 128  # Size of embedding layer.
 
-- # Hyperparameters used in feature and example generation.
+- Hyperparameters used in feature and example generation.
 - SAMPLE_RATE = 16000
 - STFT_WINDOW_LENGTH_SECONDS = 0.025
 - STFT_HOP_LENGTH_SECONDS = 0.010
@@ -77,6 +79,5 @@ This page gives more details about the extracted embeddings.
 - LOG_OFFSET = 0.01  # Offset used for stabilized log of input mel-spectrogram.
 - EXAMPLE_WINDOW_SECONDS = 0.96  # Each example contains 96 10ms frames
 - EXAMPLE_HOP_SECONDS = 0.96     # with zero overlap.
-
--	# padding for short files
+-	padding for short files
 - MINIMUM_LENGTH_SECONDS = 1
