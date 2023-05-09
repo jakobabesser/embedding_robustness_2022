@@ -2,3 +2,7 @@
 *.npy
 *.eps
 *.png
+*.zip
+
+.*
+*.keep
