@@ -1,4 +1,4 @@
-# How Robust are Audio Embeddings for Polyphonic Sound Classification?
+# How Robust are Audio Embeddings for Polyphonic Sound Event Tagging?
 
 ## Reference
 
