@@ -40,3 +40,7 @@ tensorflow version:  2.3.0
 ## Details on extracted embeddings
 
 * [Details on extracted embeddings](embedding_details.md)
+
+## ESC50Mix dataset
+
+* The dataset has been published at https://zenodo.org/record/7913031
